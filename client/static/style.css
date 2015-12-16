@@ -1,0 +1,26 @@
+#container{
+	width: 800px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid gray;
+}
+div{
+	margin: 10px;
+}
+table{
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+th, td{
+	border: 1px solid;
+	padding: 5px 10px;
+}
+
+tr:nth-child(even){
+	background-color: gray;
+}
+
+#dup{
+	color: red;
+}
